@@ -40,7 +40,9 @@ public class Habitat {
         this.habitatType = habitatType;
     }
 
-  
+  public class Habitat {
+    private List<Animal> animalList;
+    private HabitatType habitatType;
 
     // Methods
     public void addAnimal(Animal animal) {
